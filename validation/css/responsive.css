@@ -1,0 +1,104 @@
+/*---Media Queries--*/
+
+@media (max-width: 992px){
+	#top_bar .top-menu {
+	    font-size: 13px;
+	    float: right;
+	    height: 0px;
+	}
+	#top_bar .fa-bars {
+	    width: 75px;
+	    height: 30px;
+	    padding: 8px;
+	    background-color: #3b85cd;
+	    color: white;
+	    border-radius: 3px;
+	    font-size: 16px;
+	}
+	#top_bar .navbar-toggler {
+	    margin: 0 auto;
+	    float: none;
+	    display: block;
+	    color: #fff;
+	    font-size: 13px;
+	}
+	#top_bar .navbar-collapse{
+		background-color: #FFF;
+		border-radius: 5px;
+	}
+	#top_bar .social{
+		display: -webkit-box;
+	    padding: 10px;
+	}
+	
+	.text{
+		text-align: center;
+	}
+	#menu .navbar-collapse{
+		background-color: #333;
+		border-radius: 5px;
+	}
+	#menu .fa-bars {
+	    width: 75px;
+	    height: 35px;
+	    padding: 8px;
+	    background-color: black;
+	    color: #FFF;
+	    border-radius: 3px;
+	    font-size: 16px;
+	}
+	.navbar-nav .nav-link{
+		width: 80%;
+		margin-left: 10%;
+		background-color: black;
+	}	
+	.navbar-nav .nav-link:hover{
+		border: 1px dashed #3b85cd;;
+		width: 80%;
+		margin-left: 10%;
+		background-color: black;
+	}	
+}
+@media (max-width: 768px){
+	.carousel-caption{
+		top:45%;
+	}
+	.carousel-caption h1{
+		font-size: 350%;
+	}
+	.carousel-caption h3{
+		font-size: 140%;
+		font-weight: 400;
+		padding-bottom: 1rem;
+	}
+	.carousel-caption .btn{
+		font-size: 95%;
+		padding: 8px 14px;
+	}
+	.carousel-indicators{
+		display: none;
+	}
+	#breadcrumb{
+		margin-top:0px;
+	}
+}
+@media (max-width: 576px){
+	.carousel-caption{
+		top:40%;
+	}
+	.carousel-caption h1{
+		font-size: 200%;
+	}
+	.carousel-caption h3{
+		font-size: 100%;
+		font-weight: 400;
+		padding-bottom: 1rem;
+	}
+	.carousel-caption .btn{
+		font-size: 90%;
+		padding: 4px 8px;
+	}
+	.carousel-indicators{
+		display: none;
+	}
+}
